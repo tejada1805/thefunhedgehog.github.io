@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset= “utf-8>
-		<title>Grades Table</title>
+		<title>Interest Form</title>
 		<style>
 		body {
          background-color:rgb(187, 143, 206);
@@ -32,9 +32,9 @@
 <h2>What color would you choose?</h2>
   <form>
     <ul style="list-style-type:none;">
-      <li><input type="checkbox" name="Red" value="Red" />Hindi</li>
-      <li><input type="checkbox" name="Blue" value="Blue" />English</li>
-      <li><input type="checkbox" name="White" value="White" />Sanskrit</li>
+      <li><input type="checkbox" name="Red" value="Red" />Red</li>
+      <li><input type="checkbox" name="Blue" value="Blue" />Blue</li>
+      <li><input type="checkbox" name="White" value="White" />White</li>
     </ul>
    </form>
 	  <h2>Pick Your Favorite Sport</h2>
@@ -57,6 +57,12 @@
 	 <form>
     <textarea  rows="20" cols="50"></textarea>
   </form>
+	  <form>
+    <label for="pass">Password (10 characters maximum):</label>
+    <input type="password" id="pass" name="password"
+           maxlength="10" required>
+</form>
        <button type="submit">Submit</button>
     </p>
+	
  
