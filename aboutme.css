@@ -1,21 +1,21 @@
 p{
-	  font-size:22px;
-		  color: #FF00BF;
+	  font-size:40px;
+		  color: #000000;
 	}
 	.content-wrapper p{
 	text-transform:uppercase;
-	  color:#FF00BF;
+	  color:#000000;
 	  margin:20px 0px 60px 0px;
 	}
 html {
 	width:100%;
 	height:100%;
-	font-family:'Reenie Beanie', cursive;
+	font-family: "Times New Roman", Times, serif;
 	}
 	h1{
 	 text-align: center;
 	  font-size:60px;
-	  color:##FF00BF;
+	  color:#000000;
 	  margin: 0;
 	}
 	h2{
