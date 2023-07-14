@@ -13,6 +13,7 @@ html {
 	font-family:'Reenie Beanie', cursive;
 	}
 	h1{
+	 text-align: center;
 	  font-size:60px;
 	  color:##FF00BF;
 	  margin: 0;
